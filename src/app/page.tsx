@@ -89,13 +89,15 @@ export default function Home() {
         {/* Hero */}
         <header className="hero">
           <div className="container">
-            <h1 className="hero__title">Calculadora de Chopp por Pessoa</h1>
+            <span className="hero__brand">RT 166 — Cervejaria</span>
+            <h1 className="hero__title">
+              Calculadora de <span>Chopp</span> por Pessoa
+            </h1>
             <p className="hero__subtitle">
-              Calcule quantos litros de chopp, barris, copos e gelo comprar para sua festa
+              Quantos litros, barris, copos e gelo comprar para sua festa
             </p>
             <p className="hero__desc">
-              Preencha os dados do seu evento abaixo e receba uma lista de compra completa
-              em menos de 1 minuto.
+              Preencha os dados do evento e receba sua lista de compra completa em menos de 1 minuto.
             </p>
           </div>
         </header>
@@ -140,7 +142,7 @@ export default function Home() {
 
       <footer className="site-footer">
         <div className="container">
-          <p>Calculadora de Chopp por Pessoa — Estimativas para planejamento de eventos.</p>
+          <p><strong>RT 166 — Cervejaria</strong> · Calculadora de Chopp por Pessoa · Estimativas para planejamento de eventos.</p>
         </div>
       </footer>
     </>
